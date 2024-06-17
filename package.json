@@ -1,0 +1,13 @@
+{
+  "name": "online_exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd Server && npm install  && cd ../Client && npm install && npm run build",
+    "start": "node Server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
